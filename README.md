@@ -1,36 +1,155 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Get A Bike Bakersfield - Luxury Edition 🚴‍♂️✨
 
-## Getting Started
+> **Bakersfield's Premier Certified Pre-Owned Bicycle Dealership**
 
-First, run the development server:
+A luxury-grade website built for maximum local SEO dominance (GEO/AEO) and millionaire-level user experience.
+
+![Luxury Bike Shop](website-hero.png)
+
+## 🎯 Key Features
+
+### 🏆 Premium Design
+- **Black & Gold Luxury Theme** - Exudes exclusivity and premium quality
+- **Glass Morphism Effects** - Modern, sophisticated UI elements
+- **Cinematic Typography** - Cinzel (display) + Space Grotesk (body) font pairing
+- **Smooth Animations** - Scroll-triggered reveals, hover effects, micro-interactions
+
+### 📍 Local SEO Dominance (GEO/AEO)
+- **Complete Schema.org Markup** - LocalBusiness, Product, Review, FAQ, Breadcrumb
+- **Geographic Meta Tags** - Geo coordinates, ICBM, regional targeting
+- **Sitemap.xml** - Properly structured for search engines
+- **Robots.txt** - Optimized for Googlebot, Bingbot, DuckDuckBot
+- **PWA Manifest** - Full Progressive Web App capabilities
+
+### ⚡ Performance Optimized
+- **Static Export** - Blazing fast load times
+- **Image Optimization** - WebP/AVIF formats with lazy loading
+- **Security Headers** - HSTS, CSP, X-Frame-Options
+- **Caching Strategy** - Aggressive asset caching
+
+### ♿ Accessibility
+- **WCAG 2.1 AA Compliant** - Proper ARIA labels, focus states
+- **Reduced Motion Support** - Respects user preferences
+- **Semantic HTML** - Proper heading hierarchy, landmarks
+
+## 🚀 Quick Start
 
 ```bash
+# Install dependencies
+npm install
+
+# Development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Production build
+npm run build
+
+# Export static site
+npm run export
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Project Structure
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+app/
+├── page.js           # Main landing page with all sections
+├── layout.js         # Root layout with fonts & metadata
+└── globals.css       # Luxury styling system
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+public/
+├── assets/           # Bike images, avatars, backgrounds
+├── manifest.json     # PWA manifest
+├── sitemap.xml       # SEO sitemap
+├── robots.txt        # Crawler instructions
+└── browserconfig.xml # Microsoft tile config
+```
 
-## Learn More
+## 🎨 Design System
 
-To learn more about Next.js, take a look at the following resources:
+### Colors
+```css
+--color-black: #050505;        /* Primary background */
+--color-gold: #c9a962;         /* Primary accent */
+--color-gold-light: #e8d5a3;   /* Hover states */
+--color-gray-100: #f5f5f5;     /* Light text */
+--color-gray-500: #737373;     /* Muted text */
+--color-gray-800: #262626;     /* Borders */
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Typography
+- **Display**: Cinzel (400-700) - Headlines, luxury feel
+- **Body**: Space Grotesk (300-700) - UI, readable
+- **Accent**: Bebas Neue (400) - Numbers, stats
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Spacing
+- Based on 4px grid system
+- Generous whitespace for luxury feel
+- Responsive scaling
 
-## Deploy on Vercel
+## 🔍 SEO Optimizations
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Schema.org Structured Data
+1. **LocalBusiness** - Complete business information
+2. **Product** - All bike inventory with offers
+3. **Review** - Customer testimonials with ratings
+4. **FAQPage** - Common questions & answers
+5. **BreadcrumbList** - Navigation structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Meta Tags
+- Open Graph (Facebook, LinkedIn)
+- Twitter Cards
+- Dublin Core
+- Geographic (geo.placename, ICBM)
+- Apple Web App
+- Microsoft Tiles
+
+### Local SEO
+- Target: Bakersfield, Kern County, CA
+- Keywords: "luxury bikes", "certified pre-owned", "premium bicycles"
+- Service area: Bakersfield, Delano, Oildale
+
+## 🖼️ Image Generation Prompts
+
+See `generate-luxury-images.md` for AI image generation prompts to create:
+- Hero background
+- Bike product shots
+- Customer avatars
+- Instagram gallery
+
+## 📱 PWA Features
+
+- Installable on iOS/Android
+- Offline support capability
+- Push notification ready
+- Add to home screen
+- Splash screens
+
+## 🔧 Customization
+
+### Update Business Info
+Edit these files with your actual information:
+- `app/layout.js` - Business name, address, phone
+- `app/page.js` - Inventory, testimonials, events
+- `public/manifest.json` - App details
+- `public/sitemap.xml` - URLs
+
+### Change Theme Colors
+Edit CSS custom properties in `app/globals.css`:
+```css
+:root {
+  --color-gold: #your-color;
+  --color-black: #your-color;
+}
+```
+
+## 📞 Contact Information
+
+**Get A Bike Bicycles**
+- 📍 213 E 18th St, Bakersfield, CA 93305
+- 📞 (661) 555-0100
+- ✉️ concierge@getabike.com
+- 🌐 https://getabike.com
+
+---
+
+Built with ❤️ for cyclists who demand excellence.

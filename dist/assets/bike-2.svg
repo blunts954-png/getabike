@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420">
+  <rect width="640" height="420" fill="#eef4f7" />
+  <circle cx="170" cy="290" r="90" fill="none" stroke="#1a1a1a" stroke-width="10" />
+  <circle cx="470" cy="290" r="90" fill="none" stroke="#1a1a1a" stroke-width="10" />
+  <path d="M170 290l80-130h100l70 130" fill="none" stroke="#00a8e1" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M250 160l70 130" fill="none" stroke="#1a1a1a" stroke-width="10" stroke-linecap="round" />
+  <path d="M320 160h90" fill="none" stroke="#c41e3a" stroke-width="10" stroke-linecap="round" />
+  <text x="40" y="70" font-family="Montserrat, Arial" font-size="28" fill="#1a1a1a">Certified Fit</text>
+  <text x="40" y="110" font-family="Bebas Neue, Arial" font-size="36" fill="#00a8e1">Road Machine</text>
+</svg>
