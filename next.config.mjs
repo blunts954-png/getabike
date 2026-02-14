@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Output configuration for static export
-  output: 'export',
-  distDir: 'dist',
+  // For Vercel deployment, we use standard server-side rendering
+  // Static export is handled by Vercel automatically
   
   // Image optimization settings
   images: {
@@ -19,13 +18,24 @@ const nextConfig = {
   poweredByHeader: false,
   generateEtags: true,
   
-  // Turbopack config (empty to enable)
+  // Turbopack config
   turbopack: {},
   
   // Experimental features
   experimental: {
     optimizeCss: true,
     scrollRestoration: true,
+  },
+  
+  // Redirects for SEO
+  async redirects() {
+    return [
+      {
+        source: '/home',
+        destination: '/',
+        permanent: true,
+      },
+    ];
   },
 };
 
