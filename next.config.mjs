@@ -1,3 +1,5 @@
+import path from 'path';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // For Vercel deployment, we use standard server-side rendering
@@ -19,7 +21,10 @@ const nextConfig = {
   generateEtags: true,
   
   // Turbopack config
-  turbopack: {},
+  turbopack: {
+    // Use an absolute project root to avoid ambiguous workspace detection on CI (Vercel).
+    root: path.resolve('.'),
+  },
   
   // Experimental features
   experimental: {
